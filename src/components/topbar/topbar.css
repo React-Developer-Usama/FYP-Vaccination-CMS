@@ -1,0 +1,53 @@
+.topbar_section {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  height: 70px;
+}
+.left_topbar {
+  width: 400px;
+}
+.topbar_logo {
+  padding: 10px 15px;
+}
+.topbar_logo h2 {
+  font-weight: 400;
+  color: #fff;
+}
+
+.right_topbar {
+  width: 400px;
+}
+.user_section {
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  display: flex;
+}
+.bell_icon {
+  margin-right: 20px;
+  position: relative;
+}
+.bell_icon i {
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.bell_icon span {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50px;
+  height: 6px;
+  left: 14px;
+  width: 6px;
+  top: 4px;
+}
+.login_user {
+  min-width: 100px;
+}
+.login_user p {
+  color: #fff;
+  font-style: italic;
+}

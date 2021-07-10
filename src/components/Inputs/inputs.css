@@ -1,0 +1,8 @@
+.input input {
+  text-indent: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  height: 35px;
+}

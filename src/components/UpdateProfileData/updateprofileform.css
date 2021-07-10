@@ -1,0 +1,42 @@
+.update_profile_section {
+  margin: 40px auto;
+  width: 60%;
+}
+.update_profile_heading h2 {
+  text-align: center;
+}
+.update_profile_form {
+  background-color: #fff;
+  padding: 30px 60px;
+  min-height: 100px;
+}
+.image_felid {
+  text-align: center;
+}
+.update_profile_form form > div {
+  margin: 30px 0;
+}
+.update_profile_form form label {
+  display: inline-block;
+  width: 230px;
+}
+.update_profile_form .image_felid input {
+  border: none;
+}
+.update_profile_form form input {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  text-indent: 10px;
+  font-size: 15px;
+  outline: none;
+  width: 300px;
+  height: 37px;
+}
+.update_profile_btn {
+  text-align: center;
+}
+.update_profile_btn button {
+  border-radius: 5px;
+  height: 40px;
+  width: 190px;
+}

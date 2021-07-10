@@ -1,0 +1,47 @@
+.login_section {
+  flex-wrap: wrap;
+  display: flex;
+  height: 688px;
+}
+.login_feilds {
+  align-self: center;
+  padding-left: 50px;
+  width: 40%;
+}
+.login_form {
+  margin-top: 40px;
+}
+.login_form .name_input input,
+.login_form .password_input input {
+  width: 320px;
+  height: 37px;
+}
+.login_form .password_input {
+  margin-top: 10px;
+}
+.login_img {
+  width: 60%;
+}
+.login_img img {
+  object-fit: cover;
+  height: 684px;
+  width: 100%;
+}
+.forget_remember_section {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  display: flex;
+  width: 320px;
+}
+.forget_password_text a {
+  font-size: 15px;
+  color: #fff;
+}
+.login_btn {
+  margin-top: 50px;
+}
+.login_btn button {
+  height: 40px;
+  width: 150px;
+}

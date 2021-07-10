@@ -1,0 +1,11 @@
+.child_profile_form .child_profile_form_btn {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.child_profile_form_btn button {
+  background-color: #605bff;
+  border-radius: 40px;
+  width: 180px;
+  height: 35px;
+}

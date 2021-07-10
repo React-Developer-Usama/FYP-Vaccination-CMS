@@ -1,0 +1,9 @@
+.btn button {
+  text-transform: uppercase;
+  background: #56a2fd;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+}

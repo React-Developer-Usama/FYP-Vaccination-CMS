@@ -1,0 +1,43 @@
+.defualtertable_heading h2 {
+  color: #000;
+}
+.defaulter_list h2 {
+  background: #605bff;
+  text-align: center;
+  padding: 10px 0;
+}
+.defaulter_list {
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+  padding-bottom: 30px;
+  min-height: 100px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.defaulter_list table {
+  /* border: 1px solid #ddd; */
+  border-spacing: 0;
+  width: 100%;
+}
+.defaulter_list table tr {
+  padding: 10px;
+}
+.defaulter_list table thead tr td {
+  background-color: #605bff;
+  width: calc(100% / 8);
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+.defaulter_list table tbody tr td {
+  border: 1px solid #ddd;
+  width: calc(100% / 8);
+  text-align: center;
+  padding: 10px 0;
+}
+.defaulter_list table tbody tr td a {
+  background-color: #605bff;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+}

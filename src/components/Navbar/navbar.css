@@ -1,0 +1,20 @@
+.navbar_section {
+  margin-top: 50px;
+  height: 100vh;
+  width: 20%;
+}
+.navbar_section ul li a {
+  display: inline-block;
+  letter-spacing: 0.8px;
+  transition: all 0.2s;
+  padding: 8px 15px;
+  color: #fff;
+  width: 100%;
+}
+.navbar_section ul li a:hover {
+  background-color: rgba(179, 176, 255, 0.4);
+}
+.navbar_section li span {
+  margin-right: 10px;
+  font-size: 20px;
+}

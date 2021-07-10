@@ -1,0 +1,111 @@
+.new_child_topbar {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 10px;
+}
+.add_child_popup {
+  width: 20%;
+}
+.add_child_popup p {
+  font-weight: 500;
+  font-size: 17px;
+  color: gray;
+}
+.add_child_popup span {
+  display: inline-block;
+  margin: 5px 9px 0 0;
+  color: #605bff;
+}
+.child_profile_head {
+  width: 50%;
+}
+.child_profile_head h2 {
+  background-color: #605bff;
+  border-radius: 30px;
+  text-align: center;
+}
+.search_child {
+  position: relative;
+  padding: 0 30px;
+  width: 30%;
+}
+.search_child input {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  border-radius: 3px;
+  text-indent: 10px;
+  font-size: 15px;
+  outline: none;
+  width: 250px;
+  height: 37px;
+}
+.search_child i {
+  position: absolute;
+  cursor: pointer;
+  font-size: 18px;
+  right: 12px;
+  top: 8px;
+}
+.child_profile_form {
+  margin-top: 30px;
+}
+.child_profile_form form {
+  flex-wrap: wrap;
+  display: flex;
+}
+.child_profile_form form > div {
+  width: calc(100% / 3);
+  padding: 10px 0;
+}
+.child_profile_form form div label {
+  display: inline-block;
+  width: 115px;
+}
+.child_profile_form form div input {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  border-radius: 3px;
+  text-indent: 10px;
+  font-size: 15px;
+  outline: none;
+  height: 37px;
+}
+.child_profile_form form .child_profile_from_btn {
+  text-align: center;
+  width: 100%;
+}
+.child_profile_from_btn button {
+  background-color: #605bff;
+  height: 37px;
+  font-size: 16px;
+  width: 200px;
+}
+.chlid_profile_table {
+  margin-top: 40px;
+}
+.chlid_profile_table table {
+  border: 1px solid gray;
+  background-color: #fff;
+  text-align: center;
+  border-spacing: 0px;
+  width: 100%;
+}
+.chlid_profile_table table thead tr td {
+  background-color: #605bff;
+  width: calc(100% / 4);
+  padding: 10px 0;
+  color: #fff;
+}
+.chlid_profile_table table tbody tr td {
+  border: 1px solid #ddd;
+  width: calc(100% / 4);
+  padding: 10px 0;
+}
+.chlid_profile_table table tbody a {
+  background-color: #605bff;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px 15px;
+  margin-left: 5px;
+  color: #fff;
+}

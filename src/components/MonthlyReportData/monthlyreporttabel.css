@@ -1,0 +1,58 @@
+.daily_report_head {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+.daily_report_heading h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+.daily_report_search {
+  position: relative;
+}
+.daily_report_search input {
+  text-indent: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  height: 35px;
+  width: 200px;
+}
+.daily_report_search i {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  color: #605bff;
+  right: 5px;
+  top: 5px;
+}
+.daily_report_tabel {
+  border-radius: 20px 20px 0 0;
+  margin: 50px auto 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+  width: 50%;
+}
+.daily_report_tabel h2 {
+  background-color: #605bff;
+  text-align: center;
+  padding: 9px 0;
+}
+.daily_report_tabel table {
+  text-align: center;
+  border-spacing: 0;
+  width: 100%;
+}
+.daily_report_tabel table thead tr td {
+  background-color: #605bff;
+  width: calc(100% / 3);
+  padding: 10px 0;
+  color: #fff;
+}
+.daily_report_tabel table tbody tr td {
+  border: 1px solid #ddd;
+  width: calc(100% / 3);
+  padding: 10px 0;
+}

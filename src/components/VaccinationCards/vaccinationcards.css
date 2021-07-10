@@ -1,0 +1,9 @@
+.vaccination_card_section {
+  flex-wrap: wrap;
+  display: flex;
+}
+.vaccination_card {
+  width: calc(100% / 3);
+  padding-right: 25px;
+  margin-top: 40px;
+}
