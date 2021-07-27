@@ -3,26 +3,13 @@
   display: flex;
   padding: 10px;
 }
-.add_child_popup {
-  width: 20%;
-}
-.add_child_popup p {
-  font-weight: 500;
-  font-size: 17px;
-  color: gray;
-}
-.add_child_popup span {
-  display: inline-block;
-  margin: 5px 9px 0 0;
-  color: #605bff;
-}
 .child_profile_head {
-  width: 50%;
+  width: 70%;
 }
 .child_profile_head h2 {
-  background-color: #605bff;
-  border-radius: 30px;
-  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
 }
 .search_child {
   position: relative;
@@ -50,6 +37,8 @@
   margin-top: 30px;
 }
 .child_profile_form form {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 30px;
   flex-wrap: wrap;
   display: flex;
 }
@@ -70,15 +59,36 @@
   outline: none;
   height: 37px;
 }
-.child_profile_form form .child_profile_from_btn {
-  text-align: center;
-  width: 100%;
+.child_vaccination_form {
+  margin: 20px 0;
 }
-.child_profile_from_btn button {
-  background-color: #605bff;
+.child_vaccination_form form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.child_vaccination_form form > div {
+  width: calc(100% / 4);
+}
+.child_vaccination_form form > div label {
+  display: block;
+}
+.child_vaccination_form form > div input,
+.child_vaccination_form form > div select {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  border-radius: 3px;
+  text-indent: 10px;
+  font-size: 15px;
+  outline: none;
   height: 37px;
+  width: 225px;
+}
+.child_vaccination_form_btn button {
+  background-color: #605bff;
   font-size: 16px;
-  width: 200px;
+  margin: 20px 0;
+  height: 37px;
+  width: 225px;
 }
 .chlid_profile_table {
   margin-top: 40px;
@@ -92,20 +102,98 @@
 }
 .chlid_profile_table table thead tr td {
   background-color: #605bff;
-  width: calc(100% / 4);
+  width: calc(100% / 5);
   padding: 10px 0;
   color: #fff;
 }
 .chlid_profile_table table tbody tr td {
   border: 1px solid #ddd;
-  width: calc(100% / 4);
+  width: calc(100% / 5);
   padding: 10px 0;
 }
 .chlid_profile_table table tbody a {
   background-color: #605bff;
   border-radius: 3px;
   display: inline-block;
-  padding: 5px 15px;
-  margin-left: 5px;
+  padding: 3px 15px;
+  margin-top: 5px;
   color: #fff;
+}
+.chlid_profile_table table tbody i {
+  display: inline-block;
+  border-radius: 40px;
+  padding: 4px 8px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.chlid_profile_table table tbody i:active {
+  background-color: #ccc;
+}
+/* ==Modal-Css== */
+.vaccination_update_modal {
+  background-color: rgba(204, 204, 204, 0.9);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+}
+.vaccination_update_form_section {
+  box-shadow: 0px 20px 20px -5px #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 300px;
+  overflow: hidden;
+  width: 600px;
+}
+.vaccination_modal_header {
+  justify-content: space-between;
+  background-color: #605bff;
+  align-items: center;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.vaccination_modal_heading h3 {
+  color: #fff;
+}
+.vaccination_modal_close i {
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  background: #fff;
+  border-radius: 30px;
+  padding: 6px 8px;
+  font-size: 25px;
+  cursor: pointer;
+  height: 41px;
+  width: 41px;
+}
+.vaccination_modal_close i:active {
+  background-color: #ff3e43;
+}
+.vaccination_update_form {
+  padding: 20px 15px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.vaccination_update_form > div {
+  width: calc(100% / 2);
+  margin: 10px 0;
+}
+.vaccination_update_form label {
+  display: block;
+}
+.vaccination_update_form input,
+.vaccination_update_form select {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  border-radius: 3px;
+  text-indent: 10px;
+  font-size: 15px;
+  outline: none;
+  height: 37px;
+  width: 225px;
 }

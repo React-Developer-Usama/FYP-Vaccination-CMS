@@ -1,0 +1,35 @@
+.update_does_heading h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+.update_does_form form {
+  margin-top: 30px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.update_does_form form > div {
+  width: calc(100% / 3);
+  padding: 10px 0;
+}
+.update_does_form form label {
+  display: block;
+}
+.update_does_form form input,
+.update_does_form form select {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  border-radius: 3px;
+  text-indent: 10px;
+  font-size: 15px;
+  outline: none;
+  height: 37px;
+  width: 280px;
+}
+.update_does_form_btn button {
+  background-color: #605bff;
+  font-size: 16px;
+  margin: 20px 0;
+  height: 37px;
+  width: 280px;
+}

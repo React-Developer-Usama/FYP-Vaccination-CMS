@@ -18,6 +18,10 @@ import RecoverPassword from "./pages/RecoverPassword/RecoverPassword";
 import NewchildProfile from "./pages/NewchildProfile/NewchildProfile";
 import InventoryMonthlyReport from "./pages/InventoryMonthlyReport/InventoryMonthlyReport";
 import InventoryDailyReport from "./pages/InventoryDailyReport/InventoryDailyReport";
+import UpdateDose from "./pages/UpdateDose/UpdateDose";
+import ListChild from "./pages/ListChild/ListChild";
+import OfficerProfile from "./pages/OfficerProfile/OfficerProfile";
+import ListOfficer from "./pages/ListOfficer/ListOfficer";
 import "./App.css";
 const App = () => {
   return (
@@ -77,6 +81,18 @@ const App = () => {
           </Route>
           <Route path="/InventoryDailyReport">
             <InventoryDailyReport />
+          </Route>
+          <Route path="/UpdateDose">
+            <UpdateDose />
+          </Route>
+          <Route path="/ListChild">
+            <ListChild />
+          </Route>
+          <Route path="/OfficerProfile">
+            <OfficerProfile />
+          </Route>
+          <Route path="/ListOfficer">
+            <ListOfficer />
           </Route>
         </Switch>
       </Router>
