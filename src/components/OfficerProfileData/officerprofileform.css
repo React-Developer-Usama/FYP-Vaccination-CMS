@@ -1,0 +1,50 @@
+.officer_profile_heading h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+.officer_profile_form {
+  border-top: 6px solid #605bff;
+  border-radius: 0 0 15px 15px;
+  background-color: #fff;
+  min-height: 100px;
+  margin: 40px auto;
+  margin-top: 40px;
+  width: 700px;
+}
+.officer_profile_form h2 {
+  background-color: #605bff;
+  border-radius: 50px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 5px 0;
+  width: 500px;
+}
+.officer_profile_form form {
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.officer_profile_form form > div {
+  width: calc(100% / 2);
+  padding: 10px;
+}
+.officer_profile_form form div label {
+  display: inline-block;
+  font-weight: 600;
+  padding: 3px 0;
+}
+.officer_profile_form form input {
+  border: 1px solid #ccc;
+  height: 37px;
+  width: 300px;
+}
+.officer_profile_form form .officer_profile_form_btn {
+  text-align: center;
+  width: 100%;
+}
+.officer_profile_form_btn button {
+  background-color: #605bff;
+  height: 35px;
+  width: 150px;
+}

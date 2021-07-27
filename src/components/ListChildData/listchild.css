@@ -1,0 +1,30 @@
+.list_child_header {
+  align-items: center;
+}
+.list_child_tabel {
+  background-color: #fff;
+  margin-top: 40px;
+}
+.list_child_tabel table {
+  border-spacing: 0;
+  width: 100%;
+}
+.list_child_tabel table thead tr td {
+  background-color: #605bff;
+  width: calc(100% / 8);
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+.list_child_tabel table tbody tr td {
+  border: 1px solid #ddd;
+  width: calc(100% / 8);
+  text-align: center;
+  padding: 10px 0;
+}
+.list_child_tabel table tbody a {
+  background-color: #605bff;
+  display: inline-block;
+  padding: 4px 14px;
+  color: #fff;
+}
