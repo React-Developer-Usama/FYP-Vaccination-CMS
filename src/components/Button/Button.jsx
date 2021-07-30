@@ -5,7 +5,8 @@ const Button = (props) => {
   return (
     <>
       <div className="btn">
-        <button>{props.name}</button>
+        {/* Button Type and Text */}
+        <button type={props.type}>{props.name}</button>
       </div>
     </>
   );
